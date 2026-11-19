@@ -1,0 +1,1034 @@
+[
+  {
+    "key": "Snow Globe|Personalized",
+    "product_type": "Snow Globe",
+    "niche": "Personalized",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 34435262.0,
+    "median_price": 34435262.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 1.0,
+    "demand": 96.9,
+    "growth": 70.0,
+    "competition": 35.6,
+    "revenue": 100.0,
+    "personalization": 100.0,
+    "seasonality": 40.0,
+    "production_fit": 36.0,
+    "opportunity_score": 71.3,
+    "recommendation": "WATCH",
+    "reason": "Có tín hiệu nhưng chưa đủ mạnh hoặc fit trung bình. Niche personalization mạnh (POD-friendly). Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-SNOW-001",
+    "sample_titles": [
+      "Custom Snow Globe - Your home in a globe!"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/637405582/custom-snow-globe-your-home-in-a-globe?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALTc75ed130b641c0dbc190e08e7f7612dca34cfbbe&click_sum=d18e4f58&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-5&sr_prefetch=1&pf_from=search&etp=1"
+    ]
+  },
+  {
+    "key": "Rug|Personalized",
+    "product_type": "Rug",
+    "niche": "Personalized",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 9817631.0,
+    "median_price": 9817631.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 1.0,
+    "demand": 96.9,
+    "growth": 70.0,
+    "competition": 35.6,
+    "revenue": 90.6,
+    "personalization": 100.0,
+    "seasonality": 40.0,
+    "production_fit": 35.0,
+    "opportunity_score": 69.8,
+    "recommendation": "WATCH",
+    "reason": "Có tín hiệu nhưng chưa đủ mạnh hoặc fit trung bình. Niche personalization mạnh (POD-friendly). Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Custom moroccan rug - Moroccan rug - beni ourain rug - wool rug - handcrafted rug - Colorful rug - ivory rug - berber boho rug - Home decor"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1367457032/custom-moroccan-rug-moroccan-rug-beni?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALT5dc5018d69c5845d660efe011ec39c76dcd62a58&click_sum=cb2d1922&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-12&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1"
+    ]
+  },
+  {
+    "key": "Ornament|Christmas",
+    "product_type": "Ornament",
+    "niche": "Christmas",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 1140496.0,
+    "median_price": 1140496.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 59.4,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 47.0,
+    "opportunity_score": 57.8,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Candle Holder Set, Handmade Candlestick Holder, Wedding Decor, Engagement Ornament, Home Decor, Christmas Gift - New First Home House Gift"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/4310051182/candle-holder-set-handmade-candlestick?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTeecc833d44dec8a2867083d012c32b81b0246f5c&click_sum=65181e0d&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-19&sr_prefetch=1&pf_from=search&pro=1&etp=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTeecc833d44dec8a2867083d012c32b81b0246f5c"
+    ]
+  },
+  {
+    "key": "Canvas|Home Decor",
+    "product_type": "Canvas",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 15,
+    "shop_count": 15,
+    "avg_price": 265506.27,
+    "median_price": 181818.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 100.0,
+    "growth": 47.0,
+    "competition": 15.0,
+    "revenue": 75.0,
+    "personalization": 0.0,
+    "seasonality": 48.0,
+    "production_fit": 98.0,
+    "opportunity_score": 57.5,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp.",
+    "matched_printway_sku": "PW-CANVAS-001",
+    "sample_titles": [
+      "Neutral Beach Print for Summer Home Decor Minimalist Travel Poster Coastal Nautical Print Surfing Gifts Large Printable",
+      "pink and orange wall art funky home decor above bed decor, trendy art print aesthetics posters dopamine decor, retro art maximalist decor",
+      "Frons Planter Pot STL File: 3D Print Home Decor (Digital Download)",
+      "Black Beige Abstract Art Print: Modern Minimalist Decor (Digital Download)",
+      "Vintage Bird Print | Downloadable Printable | Nursery Wall Decor | Summer PRINTABLE Artwork | Gallery Wall Art"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1382211497/neutral-beach-print-for-summer-home?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT9746dcee0effb3c23af4cdbac94ecc08b35b1d3c&click_sum=f0b7dd28&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-12&sr_prefetch=1&pf_from=search&pro=1&etp=1&sts=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT9746dcee0effb3c23af4cdbac94ecc08b35b1d3c",
+      "https://www.etsy.com/listing/1582433175/pink-and-orange-wall-art-funky-home?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTfbb1170489c7fb0487bd392389cbd05bcfa9ca03&click_sum=fccd7771&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-13&sr_prefetch=1&pf_from=search&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTfbb1170489c7fb0487bd392389cbd05bcfa9ca03",
+      "https://www.etsy.com/listing/1669824121/frons-planter-pot-stl-file-3d-print-home?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTc626064fa3013f03abcaa6971c1134dee2c96ae2&click_sum=bf76f533&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-14&sr_prefetch=1&pf_from=search&pro=1&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTc626064fa3013f03abcaa6971c1134dee2c96ae2",
+      "https://www.etsy.com/listing/1266032650/black-beige-abstract-art-print-modern?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT0bcd71aca5aacb09c99b2fb98c3935134e48d164&click_sum=bfe4b764&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-15&sr_prefetch=1&pf_from=search&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT0bcd71aca5aacb09c99b2fb98c3935134e48d164",
+      "https://www.etsy.com/listing/1468887866/vintage-bird-print-downloadable?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT1488cf38f2e1cc8e81038dff7927cf7884bf2aa2&click_sum=b6462cf7&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-20&sr_prefetch=1&pf_from=search&etp=1&sts=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT1488cf38f2e1cc8e81038dff7927cf7884bf2aa2"
+    ]
+  },
+  {
+    "key": "Adorable Halloween Pumpkin|Home Decor",
+    "product_type": "Adorable Halloween Pumpkin",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 930063.0,
+    "median_price": 930063.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 50.0,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 47.0,
+    "opportunity_score": 56.4,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Adorable Halloween Pumpkin Mouse with Witch Hat, Unique Halloween Gifts, Halloween Decor, Autumn Home Decor, Handmade Wool Felt Ornaments"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/4357645995/adorable-halloween-pumpkin-mouse-with?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT8f9a93734225cb7376d1ad07dd199fa0e2ebb2ab&click_sum=97d1bffd&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-47&sr_prefetch=1&pf_from=search&pro=1&frs=1&bes=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT8f9a93734225cb7376d1ad07dd199fa0e2ebb2ab"
+    ]
+  },
+  {
+    "key": "Crystal Canvas|Home Decor",
+    "product_type": "Crystal Canvas",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 11384494.0,
+    "median_price": 11384494.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 87.5,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 74.0,
+    "opportunity_score": 55.7,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp.",
+    "matched_printway_sku": "PW-CANVAS-001",
+    "sample_titles": [
+      "Amber Radiance Mosaic: Crystal AcrylGlass Wall Art - Modern Statement Piece"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1610151507/amber-radiance-mosaic-crystal-acrylglass?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALTe6bd1a5ef414c3f30437d8c02dcc7679a2072b38&click_sum=0e1c1f81&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-8&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&sca=1"
+    ]
+  },
+  {
+    "key": "Stained Glass Bat|Pet Christmas",
+    "product_type": "Stained Glass Bat",
+    "niche": "Pet Christmas",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 1174931.0,
+    "median_price": 1174931.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 62.5,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 20.0,
+    "opportunity_score": 55.6,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Stained Glass Bat Suncatcher – Christmas Gift for Her, Gothic Home Decor, Handmade Window Hanging"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1052856760/stained-glass-bat-suncatcher-christmas?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT8e82c41df05ced55fd946940d8edfc29c5b7587f&click_sum=28875fae&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-45&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT8e82c41df05ced55fd946940d8edfc29c5b7587f"
+    ]
+  },
+  {
+    "key": "Ft Cute Ghost|Home Decor",
+    "product_type": "Ft Cute Ghost",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 272727.0,
+    "median_price": 272727.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 31.2,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 47.0,
+    "opportunity_score": 53.6,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-CANVAS-001",
+    "sample_titles": [
+      "4ft Cute ghost trio with BOO Template when made. Printable trace & Cut Halloween Silhouette Decor Templates / Stencils-Yard art PDF pattern."
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1543474994/4ft-cute-ghost-trio-with-boo-template?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT88ae154d0decc67ccde29f7336adb333bc3956ae&click_sum=014cc03b&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-18&sr_prefetch=1&pf_from=search&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT88ae154d0decc67ccde29f7336adb333bc3956ae"
+    ]
+  },
+  {
+    "key": "Glass Ornament|Christmas",
+    "product_type": "Glass Ornament",
+    "niche": "Christmas",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 192837.0,
+    "median_price": 192837.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 21.9,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 59.0,
+    "opportunity_score": 53.4,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "CRYSTALS- Glass Vintage Home Decor, Silver-Mercury Retro Christmas Ornament, Xmas Holiday Gift - Ice cube Tree Decoration: Pink green Blue"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1431388176/crystals-glass-vintage-home-decor-silver?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT8eaa614e249c0039ee6bc15a9a667535404d23ae&click_sum=23a748e0&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-35&sr_prefetch=1&pf_from=search&etp=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT8eaa614e249c0039ee6bc15a9a667535404d23ae"
+    ]
+  },
+  {
+    "key": "Large Velvet Pumpkins|Christmas",
+    "product_type": "Large Velvet Pumpkins",
+    "niche": "Christmas",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 906061.0,
+    "median_price": 906061.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 46.9,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 20.0,
+    "opportunity_score": 53.2,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Large Velvet Pumpkins Set of 3, autumn  home decor luxury velvet accent, fall mantel for holiday, Thanksgiving table, fern green decor, gift"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/789420429/large-velvet-pumpkins-set-of-3-autumn?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT4368545a08670a11765fb7bbb91b20438ffed0e0&click_sum=069e11d6&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-46&sr_prefetch=1&pf_from=search&pro=1&etp=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT4368545a08670a11765fb7bbb91b20438ffed0e0"
+    ]
+  },
+  {
+    "key": "Rug|Home Decor",
+    "product_type": "Rug",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 2,
+    "shop_count": 2,
+    "avg_price": 29269972.5,
+    "median_price": 29269972.5,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 90.6,
+    "growth": 45.0,
+    "competition": 30.2,
+    "revenue": 93.8,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 31.0,
+    "opportunity_score": 52.8,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-WOOD-SIGN-001",
+    "sample_titles": [
+      "8'1x11'7 ft Turkish Design Area Rug, Beige Afghan Hand Knotted High Pile Wool Rug, Oriental Floral Medallion Fine Quality Carpet for Bedroom",
+      "4x6'7 ft Handmade Pictorial Rug, Afghan Wool Area Rug, Oriental Baluchi Rug, Tribal Vintage Rug, Dark Blue Brown, Home decor, Kids Room Rug"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1872283886/81x117-ft-turkish-design-area-rug-beige?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALT50a10a0cc5f319fecef12e16c20c05aa66e0d1ce&click_sum=2cd564ae&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-6&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&sts=1",
+      "https://www.etsy.com/listing/1871882088/4x67-ft-handmade-pictorial-rug-afghan?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALTa1a6ee6888dfc7e44d32385ac64fe0e1d521a173&click_sum=e3cf4679&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-11&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&sts=1"
+    ]
+  },
+  {
+    "key": "Xxl Giant Wall|Home Decor",
+    "product_type": "Xxl Giant Wall",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 84848485.0,
+    "median_price": 84848485.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 96.9,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 20.0,
+    "opportunity_score": 51.7,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "XXL Giant Wall word tile Board, Magnetic Tile Game, Office Decor"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1591294285/xxl-giant-wall-word-tile-board-magnetic?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALT444c53e277c1c6313de8355839c4b8e7c5985fc9&click_sum=6eaf26ca&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-7&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1"
+    ]
+  },
+  {
+    "key": "Piece Bundle Decorative|Home Decor",
+    "product_type": "Piece Bundle Decorative",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 7713499.0,
+    "median_price": 7713499.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 84.4,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 20.0,
+    "opportunity_score": 49.9,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "30 Piece Bundle Decorative Heirloom Garland, Islam, muslim celebration, Quran, Kabaah, Madinah, Eid Islamic Art Ramadan, Hajj, Eid Mubarak"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1446206057/30-piece-bundle-decorative-heirloom?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALTaf1799e85d4e78e6e95a51fa1a77d0c765ce230b&click_sum=0977d27c&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-9&sr_prefetch=1&pf_from=search&etp=1"
+    ]
+  },
+  {
+    "key": "Canvas|Couple",
+    "product_type": "Canvas",
+    "niche": "Couple",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 444030.0,
+    "median_price": 444030.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 40.6,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 86.0,
+    "opportunity_score": 49.9,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp.",
+    "matched_printway_sku": "PW-CANVAS-001",
+    "sample_titles": [
+      "Mermaid Vintage Wall Art Couples Print Quirky Bathroom Accessory Fun Fantasy Creature Art for Nautical Decor Idea for Mermaidcore Room"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1774056740/mermaid-vintage-wall-art-couples-print?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALT450e8adbc1dc26f5fd0c7aee98f875b0ad2624de&click_sum=39a50b66&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-10&sr_prefetch=1&pf_from=search&pro=1&frs=1&bes=1"
+    ]
+  },
+  {
+    "key": "Acoustic Iphone Speaker|Home Decor",
+    "product_type": "Acoustic Iphone Speaker",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 3883605.0,
+    "median_price": 3883605.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 71.9,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 35.0,
+    "opportunity_score": 49.5,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-PHONE-001",
+    "sample_titles": [
+      "Acoustic iPhone Speaker, Gramophone iPhone Passive Speaker, Vintage Home Decor"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/906136885/acoustic-iphone-speaker-gramophone?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT59f82bcce8e131d20a69e76fb500f340700b01f4&click_sum=6949c2e9&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-21&sr_prefetch=1&pf_from=search&pro=1&etp=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT59f82bcce8e131d20a69e76fb500f340700b01f4"
+    ]
+  },
+  {
+    "key": "Nixie Tube Clock|Home Decor",
+    "product_type": "Nixie Tube Clock",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 5928375.0,
+    "median_price": 5928375.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 81.2,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 20.0,
+    "opportunity_score": 49.4,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Nixie Tube Clock IN-14 | Vintage Retro Table Clock for Home Decor & Unique Gift Idea"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/674059162/nixie-tube-clock-in-14-vintage-retro?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT93d31b0a15c99456b37491a37016a9bf2b313322&click_sum=b82e01e1&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-33&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&cns=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT93d31b0a15c99456b37491a37016a9bf2b313322"
+    ]
+  },
+  {
+    "key": "Little Ghost Autumn|Home Decor",
+    "product_type": "Little Ghost Autumn",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 62658.0,
+    "median_price": 62658.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 3.1,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 47.0,
+    "opportunity_score": 49.4,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-CANVAS-001",
+    "sample_titles": [
+      "Little Ghost in Autumn Landscape Vintage Painting | Farmhouse Fall Decor | Special Halloween Edition | PRINTABLE | No. H17"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1530949446/little-ghost-in-autumn-landscape-vintage?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTec2f977607b757ddddc6c405f117f9fb8c519ef2&click_sum=08e188b5&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-44&sr_prefetch=1&pf_from=search&pro=1&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTec2f977607b757ddddc6c405f117f9fb8c519ef2"
+    ]
+  },
+  {
+    "key": "Paper Canvas|Home Decor",
+    "product_type": "Paper Canvas",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 330696.0,
+    "median_price": 330696.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 34.4,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 86.0,
+    "opportunity_score": 49.0,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp.",
+    "matched_printway_sku": "PW-CANVAS-001",
+    "sample_titles": [
+      "Fox Sculpture, 3D Paper Craft, DIY Wall Art, Origami Fox Sculpture, Low Poly Paper Art, Home Decor, DIY Gift Idea, Print At Home Pdf"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/575627591/fox-sculpture-3d-paper-craft-diy-wall?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTccd57830506f23749f5bffc014990938b8957ec7&click_sum=6e3ebc9c&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-16&sr_prefetch=1&pf_from=search&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTccd57830506f23749f5bffc014990938b8957ec7"
+    ]
+  },
+  {
+    "key": "Peruvian Mirrors Azul|Home Decor",
+    "product_type": "Peruvian Mirrors Azul",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 4716253.0,
+    "median_price": 4716253.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 78.1,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 20.0,
+    "opportunity_score": 48.9,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Peruvian Mirrors \"Azul Black\" - Interior Decoration - Wall Mirror - Home Decor - Decorative Mirrors - Peruvian Handicrafts"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/772983992/peruvian-mirrors-azul-black-interior?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT35ee8f2db8f03cd3ba018a3d5b35d71208b51b4c&click_sum=fe299557&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-41&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT35ee8f2db8f03cd3ba018a3d5b35d71208b51b4c"
+    ]
+  },
+  {
+    "key": "Crochet Mushroom Pattern|Home Decor",
+    "product_type": "Crochet Mushroom Pattern",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 127273.0,
+    "median_price": 127273.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 12.5,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 20.0,
+    "opportunity_score": 48.1,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Crochet mushroom PATTERN, Halloween decor fake plant in a pot, Creepy amigurumi PDF pattern"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1480125729/crochet-mushroom-pattern-halloween-decor?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTaa83db10b719449d97f7c57ed6c36b0b4f3280ed&click_sum=18d53ad9&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-29&sr_prefetch=1&pf_from=search&pro=1&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTaa83db10b719449d97f7c57ed6c36b0b4f3280ed"
+    ]
+  },
+  {
+    "key": "Dark Raven Painting|Home Decor",
+    "product_type": "Dark Raven Painting",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 109270.0,
+    "median_price": 109270.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 9.4,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 20.0,
+    "opportunity_score": 47.6,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Dark Raven Painting | Vintage Gothic Halloween Bird Art (Digital Download)"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1575691771/dark-raven-printable-art-vintage-spooky?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT94575bde31fde722ed929aab23c0277a21ccb883&click_sum=7bac9b25&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-48&sr_prefetch=1&pf_from=search&pro=1&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT94575bde31fde722ed929aab23c0277a21ccb883"
+    ]
+  },
+  {
+    "key": "Stained Glass Monstera|Home Decor",
+    "product_type": "Stained Glass Monstera",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 1611570.0,
+    "median_price": 1611570.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 68.8,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 20.0,
+    "opportunity_score": 47.5,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Stained Glass Monstera Leaves: Boho Home Decor, Set of 3"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1589193918/stained-glass-monstera-leaves-boho-home?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT063356ac50a33396674b65f2b8ca13bc73b0c74a&click_sum=941d1769&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-31&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT063356ac50a33396674b65f2b8ca13bc73b0c74a"
+    ]
+  },
+  {
+    "key": "Candle|Home Decor",
+    "product_type": "Candle",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 2,
+    "shop_count": 2,
+    "avg_price": 475068.5,
+    "median_price": 475068.5,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 90.6,
+    "growth": 45.0,
+    "competition": 30.2,
+    "revenue": 53.1,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 35.0,
+    "opportunity_score": 47.1,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-PHONE-001",
+    "sample_titles": [
+      "FALL Candle Ring, farmhouse inspired orange berry, small leaf airy vine plastic greenery, autumn foliage,4.25 in/12in, fall home decor",
+      "Corn Cob Pillar Candle, Beeswax Shaped Candle, Vegetable Candles, Home Decor, Food Candles, Gift for Friend, Table Candles"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1890096162/fall-candle-ring-farmhouse-inspired?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT923b507accab9275215b05277c828a7b2f70efeb&click_sum=b8d00448&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-11&sr_prefetch=1&pf_from=search&bes=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT923b507accab9275215b05277c828a7b2f70efeb",
+      "https://www.etsy.com/listing/1873522049/corn-cob-pillar-candle-beeswax-shaped?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTc095ac2078e162e0c204608215647665245118d4&click_sum=1cec0d11&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-23&sr_prefetch=1&pf_from=search&etp=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTc095ac2078e162e0c204608215647665245118d4"
+    ]
+  },
+  {
+    "key": "Ghost Babe Magnet|Home Decor",
+    "product_type": "Ghost Babe Magnet",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 99174.0,
+    "median_price": 99174.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 60.0,
+    "competition": 35.6,
+    "revenue": 6.2,
+    "personalization": 0.0,
+    "seasonality": 100.0,
+    "production_fit": 20.0,
+    "opportunity_score": 47.1,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Ghost Babe Magnet / Fridge Magnet / Halloween Decor / Ghost Magnet / Ghost / Halloween / Cute Decor / Small Magnet / Funny Gift"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1325994477/ghost-babe-magnet-fridge-magnet?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT7188a3916a7189ad1d8039751a600078d442ddc0&click_sum=502106b0&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-22&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT7188a3916a7189ad1d8039751a600078d442ddc0"
+    ]
+  },
+  {
+    "key": "Handmade Crochet Flower|Home Decor",
+    "product_type": "Handmade Crochet Flower",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 1211846.0,
+    "median_price": 1211846.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 65.6,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 20.0,
+    "opportunity_score": 47.1,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Handmade Crochet Flower Bouquet: Sunflower, Tulip Home Decor"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1731392974/handmade-crochet-flower-bouquet?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT858410e4cd564bfc14f304c1a4023ed8a20ad177&click_sum=84136950&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-37&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT858410e4cd564bfc14f304c1a4023ed8a20ad177"
+    ]
+  },
+  {
+    "key": "Pillow|Home Decor",
+    "product_type": "Pillow",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 743802.0,
+    "median_price": 743802.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 43.8,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 47.0,
+    "opportunity_score": 46.5,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-PILLOW-001",
+    "sample_titles": [
+      "Hmong Batik Pillow Cover: Neutral Cream Striped Home Decor"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1706355565/hmong-batik-pillow-cover-neutral-cream?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTad66693711931414b96a01ee94a4fb3e40ea1467&click_sum=edf60a1b&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-36&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTad66693711931414b96a01ee94a4fb3e40ea1467"
+    ]
+  },
+  {
+    "key": "Canvas|Pet",
+    "product_type": "Canvas",
+    "niche": "Pet",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 135759.0,
+    "median_price": 135759.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 15.6,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 86.0,
+    "opportunity_score": 46.2,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp.",
+    "matched_printway_sku": "PW-CANVAS-001",
+    "sample_titles": [
+      "Cat at Night | Dark Academia Prints, Goth Cottagecore, Gothic Home Decor, Witchy Wall Art, Library Decor, Moody Wall Art, Dark Green Art"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1509636283/cat-at-night-dark-academia-prints-goth?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT6f979777e92f905b8161b8f02be293c5d43dec52&click_sum=9868c5e1&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-32&sr_prefetch=1&pf_from=search&pro=1&etp=1&sts=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT6f979777e92f905b8161b8f02be293c5d43dec52"
+    ]
+  },
+  {
+    "key": "Trendy Home Decor|Home Decor",
+    "product_type": "Trendy Home Decor",
+    "niche": "Home Decor",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 968354.0,
+    "median_price": 968354.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 56.2,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 20.0,
+    "opportunity_score": 45.6,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Trendy home decor, LEGO flowers display, Flower frog vase for dried flowers"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1848174224/trendy-home-decor-lego-flowers-display?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT50ca942b9353e73ff51b10a0a7cc0837164d33c7&click_sum=401abefa&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-24&sr_prefetch=1&pf_from=search&etp=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT50ca942b9353e73ff51b10a0a7cc0837164d33c7"
+    ]
+  },
+  {
+    "key": "Crochet Lily Valley|Mom Mother'S Day",
+    "product_type": "Crochet Lily Valley",
+    "niche": "Mom Mother'S Day",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 412672.0,
+    "median_price": 412672.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 37.5,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 20.0,
+    "opportunity_score": 42.8,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Crochet Lily of the Valley Night Light,Handmade Knitted Flower Lamp,Potted Plant, Tiny Home Decor, Birthday Gift for Her, Mom Gift"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/1777299492/crochet-lily-of-the-valley-night?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT859b53ea298cf6671351083d6ff7dddc3742f929&click_sum=896b1cc4&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-17&sr_prefetch=1&pf_from=search&pro=1&bes=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT859b53ea298cf6671351083d6ff7dddc3742f929"
+    ]
+  },
+  {
+    "key": "Mini Glass Flower|Pet",
+    "product_type": "Mini Glass Flower",
+    "niche": "Pet",
+    "sources": [
+      "etsy"
+    ],
+    "listing_count": 1,
+    "shop_count": 1,
+    "avg_price": 233609.0,
+    "median_price": 233609.0,
+    "avg_rating": 0.0,
+    "total_reviews": 0.0,
+    "total_favorites": 0.0,
+    "total_sales_est": 0.0,
+    "personalization_ratio": 0.0,
+    "demand": 84.4,
+    "growth": 45.0,
+    "competition": 35.6,
+    "revenue": 28.1,
+    "personalization": 0.0,
+    "seasonality": 40.0,
+    "production_fit": 20.0,
+    "opportunity_score": 41.4,
+    "recommendation": "SKIP",
+    "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+    "matched_printway_sku": "PW-ACR-ORN-001",
+    "sample_titles": [
+      "Mini Glass Flower Bouquet: Handcrafted Borosilicate Figurine, Home Decor"
+    ],
+    "sample_urls": [
+      "https://www.etsy.com/listing/4301825628/mini-glass-flower-bouquet-handcrafted?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT60fe44e9a04fbc51c70696d906fc2f437e5a8cd1&click_sum=63c97ad9&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-28&sr_prefetch=1&pf_from=search&pro=1&pop=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT60fe44e9a04fbc51c70696d906fc2f437e5a8cd1"
+    ]
+  }
+]

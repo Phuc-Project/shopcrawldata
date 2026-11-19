@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "n_samples": 32,
+  "n_train": 24,
+  "n_test": 8,
+  "classifier_accuracy": 1.0,
+  "regressor_mae": 1.3283154175364915,
+  "label_distribution": {
+    "SKIP": 30,
+    "WATCH": 2
+  },
+  "feature_cols": [
+    "demand",
+    "growth",
+    "competition",
+    "revenue",
+    "personalization",
+    "seasonality",
+    "production_fit",
+    "listing_count",
+    "shop_count",
+    "avg_price",
+    "avg_rating",
+    "total_reviews",
+    "total_favorites",
+    "total_sales_est",
+    "personalization_ratio"
+  ]
+}

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>OpportunityOS — Công Cụ Quay & Xuất Video Tự Động (Auto Video Generator)</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #090d16;
+      color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1040px;
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid #1e293b;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-logo {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #2563eb, #3b82f6);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      color: #fff;
+      font-size: 18px;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .subtitle {
+      font-size: 12px;
+      color: #94a3b8;
+    }
+    .controls {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .btn {
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-primary {
+      background: #2563eb;
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: #1d4ed8;
+      transform: translateY(-1px);
+    }
+    .btn-stop {
+      background: #dc2626;
+      color: #fff;
+    }
+    .btn-stop:hover { background: #b91c1c; }
+    .btn-secondary {
+      background: #1e293b;
+      color: #cbd5e1;
+      border: 1px solid #334155;
+    }
+    .btn-secondary:hover { background: #334155; color: #fff; }
+    .video-viewport {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #334155;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .progress-bar-container {
+      margin-top: 16px;
+      background: #1e293b;
+      border-radius: 999px;
+      height: 8px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #3b82f6, #10b981);
+      transition: width 0.1s linear;
+    }
+    .status-bar {
+      margin-top: 12px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+    .status-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #64748b;
+    }
+    .status-dot.recording {
+      background: #ef4444;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    .success-alert {
+      display: none;
+      margin-top: 16px;
+      padding: 14px 18px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      border-radius: 10px;
+      color: #34d399;
+      font-size: 13px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .instruction-card {
+      margin-top: 18px;
+      padding: 14px 16px;
+      background: #090d16;
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      font-size: 12px;
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+    .instruction-card strong { color: #f1f5f9; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div class="brand">
+        <div class="brand-logo">O</div>
+        <div>
+          <div class="title">OpportunityOS &bull; Video Generator Tự Động</div>
+          <div class="subtitle">Tự động quay và xuất video giới thiệu sản phẩm (.webm) chuẩn HD 720p</div>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="startBtn" class="btn btn-primary">
+          <span>&#9654;</span> Bắt Đầu Tự Động Quay & Xuất Video
+        </button>
+        <button id="stopBtn" class="btn btn-stop" style="display: none;">
+          <span>&#9632;</span> Dừng & Xuất Ngay
+        </button>
+      </div>
+    </div>
+
+    <!-- Video Canvas Viewport -->
+    <div class="video-viewport">
+      <canvas id="videoCanvas" width="1280" height="720"></canvas>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
+      <div id="progressFill" class="progress-bar-fill"></div>
+    </div>
+
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="status-indicator">
+        <span id="statusDot" class="status-dot"></span>
+        <span id="statusText">Trạng thái: Sẵn sàng quay</span>
+      </div>
+      <div id="timeText">00:00 / 00:25</div>
+    </div>
+
+    <!-- Success Download Alert -->
+    <div id="successAlert" class="success-alert">
+      <span>&#10004; <strong>Đã hoàn thành!</strong> Video <code>OpportunityOS_Demo_Video.webm</code> đã được tự động lưu về máy bạn.</span>
+      <a id="downloadAgainBtn" class="btn btn-secondary" style="font-size: 12px; padding: 6px 12px;" href="#" download="OpportunityOS_Demo_Video.webm">
+        Tải lại video
+      </a>
+    </div>
+
+    <div class="instruction-card">
+      <strong>Cách hoạt động:</strong> Khi bạn bấm nút "Bắt Đầu Tự Động Quay", trình duyệt sẽ chạy kịch bản giới thiệu 5 tính năng cốt lõi của OpportunityOS (Search thông minh, Feed 7 chỉ số, AI Copilot, Trend Radar, và Báo cáo khả thi sản xuất tại Printway) và tự động ghi hình lại thành file video <code>.webm</code>. Khi hết 25 giây, file video sẽ tự động tải về thư mục Downloads của bạn!
+    </div>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('videoCanvas');
+    const ctx = canvas.getContext('2d');
+    const startBtn = document.getElementById('startBtn');
+    const stopBtn = document.getElementById('stopBtn');
+    const progressFill = document.getElementById('progressFill');
+    const statusDot = document.getElementById('statusDot');
+    const statusText = document.getElementById('statusText');
+    const timeText = document.getElementById('timeText');
+    const successAlert = document.getElementById('successAlert');
+    const downloadAgainBtn = document.getElementById('downloadAgainBtn');
+
+    const TOTAL_DURATION = 25; // seconds
+    let startTime = null;
+    let animFrameId = null;
+    let mediaRecorder = null;
+    let recordedChunks = [];
+    let isRecording = false;
+
+    // Kịch bản phụ đề (Voiceover Subtitles) theo thời gian (giây)
+    const subtitles = [
+      { start: 0, end: 5, text: "OpportunityOS — AI Product Research Copilot dành riêng cho Printway POD" },
+      { start: 5, end: 10, text: "Opportunity Feed: Thuật toán chấm điểm 7 chiều độc quyền — Phân loại BUILD / WATCH / SKIP" },
+      { start: 10, end: 15, text: "AI Copilot Studio: Hỏi đáp chuyên sâu R&D, phân tích vật liệu và góc thiết kế ăn khách" },
+      { start: 15, end: 20, text: "Trend Radar & Niche Matrix: Bắt trọn sóng ngách bùng nổ trước khi thị trường bão hòa" },
+      { start: 20, end: 25, text: "Báo Cáo Khả Thi Sản Xuất Printway: Margin 35-55%, sẵn sàng đưa vào sản xuất!" }
+    ];
+
+    function getSubtitle(currentTime) {
+      for (let s of subtitles) {
+        if (currentTime >= s.start && currentTime <= s.end) return s.text;
+      }
+      return "";
+    }
+
+    // Hàm vẽ hình chữ nhật bo góc
+    function roundRect(ctx, x, y, w, h, r, fill, stroke) {
+      ctx.beginPath();
+      ctx.moveTo(x + r, y);
+      ctx.arcTo(x + w, y, x + w, y + h, r);
+      ctx.arcTo(x + w, y + h, x, y + h, r);
+      ctx.arcTo(x, y + h, x, y, r);
+      ctx.arcTo(x, y, x + w, y, r);
+      ctx.closePath();
+      if (fill) ctx.fill();
+      if (stroke) ctx.stroke();
+    }
+
+    // Render Scene theo thời gian
+    function renderFrame(t) {
+      // 1. Background gradient
+      const bgGrad = ctx.createLinearGradient(0, 0, 1280, 720);
+      bgGrad.addColorStop(0, '#090d16');
+      bgGrad.addColorStop(1, '#0f172a');
+      ctx.fillStyle = bgGrad;
+      ctx.fillRect(0, 0, 1280, 720);
+
+      // Top Bar (luôn hiển thị)
+      ctx.fillStyle = 'rgba(15, 23, 42, 0.85)';
+      ctx.fillRect(0, 0, 1280, 70);
+      ctx.strokeStyle = '#1e293b';
+      ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(0, 70); ctx.lineTo(1280, 70); ctx.stroke();
+
+      // Logo
+      ctx.fillStyle = '#2563eb';
+      roundRect(ctx, 40, 17, 36, 36, 8, true, false);
+      ctx.fillStyle = '#ffffff';
+      ctx.font = 'bold 20px sans-serif';
+      ctx.fillText('O', 50, 43);
+
+      ctx.font = 'bold 20px sans-serif';
+      ctx.fillStyle = '#f8fafc';
+      ctx.fillText('OpportunityOS', 88, 42);
+
+      ctx.fillStyle = '#3b82f6';
+      ctx.font = 'bold 12px sans-serif';
+      roundRect(ctx, 245, 24, 110, 22, 6, false, true);
+      ctx.fillText('PRINTWAY AI', 260, 40);
+
+      // Navigation badges on top
+      const navs = ['Feed (7 Chỉ Số)', 'AI Copilot', 'Niche Matrix', 'Trend Radar', 'R&D Report'];
+      navs.forEach((nav, idx) => {
+        const x = 500 + idx * 145;
+        const activeIdx = Math.min(4, Math.floor(t / 5));
+        ctx.font = (idx === activeIdx ? 'bold ' : '') + '13px sans-serif';
+        ctx.fillStyle = idx === activeIdx ? '#38bdf8' : '#64748b';
+        ctx.fillText(nav, x, 42);
+        if (idx === activeIdx) {
+          ctx.fillRect(x, 66, ctx.measureText(nav).width, 3);
+        }
+      });
+
+      // SCENE 1: 0s - 5s -> Hero & Smart NLP Ingestion
+      if (t < 5) {
+        const prog = t / 5;
+        // Hero Tagline
+        ctx.fillStyle = '#f8fafc';
+        ctx.font = 'bold 38px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('AI Product Research Copilot for Printway POD', 640, 170);
+
+        ctx.fillStyle = '#94a3b8';
+        ctx.font = '18px sans-serif';
+        ctx.fillText('Biến dữ liệu đa sàn TMĐT (Etsy, Amazon, Shopee) thành 1 quyết định sản xuất.', 640, 215);
+
+        // Smart Search Box
+        ctx.fillStyle = '#1e293b';
+        ctx.strokeStyle = '#3b82f6';
+        ctx.lineWidth = 2;
+        roundRect(ctx, 240, 260, 800, 60, 12, true, true);
+
+        ctx.textAlign = 'left';
+        ctx.fillStyle = '#38bdf8';
+        ctx.font = '22px sans-serif';
+        ctx.fillText('🔍', 260, 298);
+
+        // Typing effect
+        const fullPrompt = "Tìm sản phẩm personalized quà tặng Q4, cạnh tranh thấp, Printway làm được...";
+        const charCount = Math.floor(Math.min(fullPrompt.length, (t / 4) * fullPrompt.length));
+        ctx.fillStyle = '#ffffff';
+        ctx.font = '16px monospace';
+        ctx.fillText(fullPrompt.substring(0, charCount) + (Math.floor(t * 3) % 2 === 0 ? '|' : ''), 300, 297);
+
+        // 3 Cards below
+        const cards = [
+          { title: "Multi-Marketplace Ingestion", desc: "Tự động chuẩn hóa dữ liệu Etsy HAR, Amazon, Shopee" },
+          { title: "NLP Niche & Material", desc: "Tách Niche: Pet Memorial & Vật liệu: 3mm Acrylic" },
+          { title: "Decision Ready Engine", desc: "Không dừng ở trend — Đưa ra quyết định: BUILD" }
+        ];
+        cards.forEach((c, idx) => {
+          const cx = 240 + idx * 280;
+          ctx.fillStyle = '#111827';
+          ctx.strokeStyle = '#1f2937';
+          ctx.lineWidth = 1;
+          roundRect(ctx, cx, 360, 240, 160, 10, true, true);
+
+          ctx.fillStyle = '#60a5fa';
+          ctx.font = 'bold 14px sans-serif';
+          ctx.fillText(c.title, cx + 16, 400);
+
+          ctx.fillStyle = '#94a3b8';
+          ctx.font = '12px sans-serif';
+          wrapText(ctx, c.desc, cx + 16, 435, 208, 18);
+        });
+      }
+      // SCENE 2: 5s - 10s -> Opportunity Feed & 7-Dimension Score
+      else if (t < 10) {
+        ctx.textAlign = 'left';
+        ctx.fillStyle = '#38bdf8';
+        ctx.font = 'bold 14px sans-serif';
+        ctx.fillText('OPPORTUNITY FEED & 7-DIMENSION SCORING', 60, 115);
+
+        // Main Card
+        ctx.fillStyle = '#111827';
+        ctx.strokeStyle = '#3b82f6';
+        ctx.lineWidth = 2;
+        roundRect(ctx, 60, 135, 1160, 420, 14, true, true);
+
+        // Header info
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 26px sans-serif';
+        ctx.fillText('#1 Pet Memorial Acrylic Ornament', 90, 185);
+
+        ctx.fillStyle = '#94a3b8';
+        ctx.font = '14px sans-serif';
+        ctx.fillText('Niche: Pet Memorial  •  Season: Q4 Christmas  •  Vật liệu: 3mm Clear Acrylic', 90, 215);
+
+        // BUILD Badge
+        ctx.fillStyle = '#10b981';
+        roundRect(ctx, 960, 160, 220, 38, 8, true, false);
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 15px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('BUILD RECOMMENDATION', 1070, 185);
+
+        // Big Score
+        ctx.fillStyle = '#3b82f6';
+        ctx.font = 'bold 54px sans-serif';
+        ctx.fillText('91', 1030, 260);
+        ctx.fillStyle = '#64748b';
+        ctx.font = '20px sans-serif';
+        ctx.fillText('/100', 1090, 260);
+
+        // 7 Scoring Bars
+        const metrics = [
+          { name: "Demand Score (20%)", val: 94, color: "#3b82f6" },
+          { name: "Growth Rate 30d (20%)", val: 96, color: "#8b5cf6", note: "+43% breakout" },
+          { name: "Competition Level (15%)", val: 78, color: "#f59e0b", note: "Thấp - Ít cạnh tranh" },
+          { name: "Revenue Potential (15%)", val: 87, color: "#10b981" },
+          { name: "Personalization Index (10%)", val: 95, color: "#ec4899" },
+          { name: "Seasonality Q4 Fit (10%)", val: 81, color: "#06b6d4" },
+          { name: "Printway Factory Fit (10%)", val: 96, color: "#10b981", note: "Dây chuyền Acrylic sẵn sàng" }
+        ];
+
+        ctx.textAlign = 'left';
+        metrics.forEach((m, idx) => {
+          const col = idx < 4 ? 0 : 1;
+          const row = idx < 4 ? idx : idx - 4;
+          const mx = 90 + col * 440;
+          const my = 260 + row * 65;
+
+          ctx.fillStyle = '#e2e8f0';
+          ctx.font = '13px sans-serif';
+          ctx.fillText(m.name, mx, my);
+
+          ctx.fillStyle = m.color;
+          ctx.font = 'bold 13px sans-serif';
+          ctx.fillText(m.val + '/100' + (m.note ? ' (' + m.note + ')' : ''), mx + 200, my);
+
+          // Bar background
+          ctx.fillStyle = '#1e293b';
+          roundRect(ctx, mx, my + 8, 380, 10, 5, true, false);
+
+          // Animated fill bar
+          const animVal = Math.min(m.val, m.val * ((t - 5) / 2));
+          ctx.fillStyle = m.color;
+          roundRect(ctx, mx, my + 8, (380 * animVal) / 100, 10, 5, true, false);
+        });
+      }
+      // SCENE 3: 10s - 15s -> AI Copilot R&D Studio
+      else if (t < 15) {
+        ctx.textAlign = 'left';
+        ctx.fillStyle = '#a855f7';
+        ctx.font = 'bold 14px sans-serif';
+        ctx.fillText('AI COPILOT R&D STUDIO (INTERACTIVE RESEARCH CHAT)', 60, 115);
+
+        // Chat Container
+        ctx.fillStyle = '#111827';
+        ctx.strokeStyle = '#334155';
+        ctx.lineWidth = 1;
+        roundRect(ctx, 60, 135, 1160, 420, 14, true, true);
+
+        // Message 1: User prompt
+        ctx.fillStyle = '#1e293b';
+        roundRect(ctx, 100, 165, 820, 65, 10, true, false);
+        ctx.fillStyle = '#60a5fa';
+        ctx.font = 'bold 14px sans-serif';
+        ctx.fillText('👤 Seller R&D Team:', 120, 190);
+        ctx.fillStyle = '#f8fafc';
+        ctx.font = '14px sans-serif';
+        ctx.fillText('Tại sao hệ thống đề xuất Acrylic Ornament mà không phải Wooden Plaque trong đợt này?', 120, 215);
+
+        // Message 2: Copilot Response
+        ctx.fillStyle = 'rgba(147, 51, 234, 0.08)';
+        ctx.strokeStyle = '#9333ea';
+        ctx.lineWidth = 1;
+        roundRect(ctx, 100, 245, 1060, 280, 12, true, true);
+
+        ctx.fillStyle = '#c084fc';
+        ctx.font = 'bold 15px sans-serif';
+        ctx.fillText('✨ OpportunityOS Copilot:', 125, 275);
+
+        const answers = [
+          "1. Tốc độ tăng trưởng vượt bậc: Niche Pet Memorial trên Acrylic tăng +43% trong 30 ngày qua (Gỗ chỉ tăng +12%).",
+          "2. Tối ưu chi phí sản xuất: Phôi 3mm Clear Acrylic tại xưởng Printway cho margin 35% - 55%, cao hơn phôi gỗ ép 15%.",
+          "3. Lead time siêu tốc: Dây chuyền cắt laser Acrylic Printway hoàn thiện chỉ 24h-48h, giảm 50% rủi ro mùa cao điểm Q4.",
+          "4. Khuyến nghị hành động: Triển khai ngay bộ 15 template tưởng niệm thú cưng; lịch launch vàng: Tháng 9 - Tháng 10."
+        ];
+
+        ctx.fillStyle = '#e2e8f0';
+        ctx.font = '14px sans-serif';
+        answers.forEach((ans, i) => {
+          ctx.fillText(ans, 125, 315 + i * 45);
+        });
+      }
+      // SCENE 4: 15s - 20s -> Trend Radar & Niche Matrix
+      else if (t < 20) {
+        ctx.textAlign = 'left';
+        ctx.fillStyle = '#f59e0b';
+        ctx.font = 'bold 14px sans-serif';
+        ctx.fillText('TREND RADAR ALERTS & NICHE COMPARISON MATRIX', 60, 115);
+
+        // Left Panel: Radar Alerts
+        ctx.fillStyle = '#111827';
+        ctx.strokeStyle = '#f59e0b';
+        ctx.lineWidth = 1;
+        roundRect(ctx, 60, 135, 480, 420, 12, true, true);
+
+        ctx.fillStyle = '#fbbf24';
+        ctx.font = 'bold 16px sans-serif';
+        ctx.fillText('📡 Cảnh Báo Tín Hiệu Mới (Radar)', 90, 175);
+
+        const alerts = [
+          { title: "Pet Loss Quote Acrylic", stat: "+78% surge", status: "BÙNG NỔ 🔥", col: "#10b981" },
+          { title: "Grandpa Workshop Plaque", stat: "+35% steady", status: "TĂNG ĐỀU", col: "#3b82f6" },
+          { title: "Family Photo Canvas", stat: "+18% seasonal", status: "THEO MÙA", col: "#8b5cf6" },
+          { title: "Stainless Steel Dog Tag", stat: "-12% drop", status: "BÃÕ HÒA (SKIP)", col: "#ef4444" }
+        ];
+
+        alerts.forEach((a, idx) => {
+          const ay = 205 + idx * 75;
+          ctx.fillStyle = '#1e293b';
+          roundRect(ctx, 80, ay, 440, 60, 8, true, false);
+
+          ctx.fillStyle = '#f8fafc';
+          ctx.font = 'bold 14px sans-serif';
+          ctx.fillText(a.title, 100, ay + 26);
+
+          ctx.fillStyle = a.col;
+          ctx.font = 'bold 13px sans-serif';
+          ctx.fillText(a.stat + ' • ' + a.status, 100, ay + 48);
+        });
+
+        // Right Panel: Matrix
+        ctx.fillStyle = '#111827';
+        ctx.strokeStyle = '#334155';
+        ctx.lineWidth = 1;
+        roundRect(ctx, 560, 135, 660, 420, 12, true, true);
+
+        ctx.fillStyle = '#38bdf8';
+        ctx.font = 'bold 16px sans-serif';
+        ctx.fillText('⚖️ Ma Trận So Sánh Niche & Khả Năng Sản Xuất', 590, 175);
+
+        // Table Header
+        ctx.fillStyle = '#1e293b';
+        roundRect(ctx, 580, 200, 620, 35, 6, true, false);
+        ctx.fillStyle = '#94a3b8';
+        ctx.font = 'bold 12px sans-serif';
+        ctx.fillText('SẢN PHẨM / VẬT LIỆU', 600, 222);
+        ctx.fillText('SCORE', 830, 222);
+        ctx.fillText('MARGIN', 930, 222);
+        ctx.fillText('PRINTWAY FIT', 1060, 222);
+
+        const rows = [
+          { name: "Acrylic Ornament (3mm)", score: "91", margin: "35% - 55%", fit: "96% (BUILD)", col: "#10b981" },
+          { name: "Wooden Plaque (Pine)", score: "84", margin: "30% - 48%", fit: "94% (WATCH)", col: "#3b82f6" },
+          { name: "Canvas Print (Framed)", score: "79", margin: "40% - 60%", fit: "88% (WATCH)", col: "#8b5cf6" },
+          { name: "Laser Metal Pet Tag", score: "52", margin: "15% - 25%", fit: "34% (SKIP)", col: "#ef4444" }
+        ];
+
+        rows.forEach((r, idx) => {
+          const ry = 250 + idx * 65;
+          ctx.fillStyle = idx === 0 ? 'rgba(16, 185, 129, 0.08)' : '#1e293b';
+          roundRect(ctx, 580, ry, 620, 50, 6, true, false);
+
+          ctx.fillStyle = '#f8fafc';
+          ctx.font = 'bold 13px sans-serif';
+          ctx.fillText(r.name, 600, ry + 30);
+
+          ctx.fillStyle = r.col;
+          ctx.fillText(r.score, 840, ry + 30);
+          ctx.fillText(r.margin, 930, ry + 30);
+          ctx.fillText(r.fit, 1060, ry + 30);
+        });
+      }
+      // SCENE 5: 20s - 25s -> Decision Report & Printway Ready
+      else {
+        ctx.textAlign = 'center';
+        ctx.fillStyle = '#10b981';
+        ctx.font = 'bold 15px sans-serif';
+        ctx.fillText('KẾ HOẠCH HÀNH ĐỘNG & BÁO CÁO NGHIÊN CỨU HOÀN CHỈNH', 640, 125);
+
+        ctx.fillStyle = '#f8fafc';
+        ctx.font = 'bold 32px sans-serif';
+        ctx.fillText('Sẵn Sàng Triển Khai Sản Xuất Tại Printway', 640, 175);
+
+        // 4 Spec Cards
+        const specs = [
+          { title: "Vật Liệu Chuẩn Xưởng", val: "3mm Clear Acrylic", desc: "Độ bền cao, cắt laser sắc nét" },
+          { title: "Biên Lợi Nhuận Ước Tính", val: "35% — 55%", desc: "Giá thành phôi xưởng tối ưu" },
+          { title: "Thời Gian Tung Hàng", val: "Tháng 9 — Tháng 10", desc: "Đón trước đỉnh mua sắm Q4" },
+          { title: "Khả Năng Thành Công", val: "92% Dự Đoán", desc: "Mô hình ML Ranker đã kiểm nghiệm" }
+        ];
+
+        specs.forEach((s, idx) => {
+          const sx = 100 + idx * 275;
+          ctx.fillStyle = '#111827';
+          ctx.strokeStyle = idx === 3 ? '#10b981' : '#334155';
+          ctx.lineWidth = 1;
+          roundRect(ctx, sx, 220, 255, 180, 12, true, true);
+
+          ctx.fillStyle = '#94a3b8';
+          ctx.font = '12px sans-serif';
+          ctx.fillText(s.title, sx + 127, 260);
+
+          ctx.fillStyle = idx === 3 ? '#34d399' : '#38bdf8';
+          ctx.font = 'bold 20px sans-serif';
+          ctx.fillText(s.val, sx + 127, 305);
+
+          ctx.fillStyle = '#64748b';
+          ctx.font = '12px sans-serif';
+          ctx.fillText(s.desc, sx + 127, 350);
+        });
+
+        // Bottom Pitch Tagline Box
+        ctx.fillStyle = '#1e293b';
+        ctx.strokeStyle = '#3b82f6';
+        ctx.lineWidth = 1.5;
+        roundRect(ctx, 160, 440, 960, 90, 14, true, true);
+
+        ctx.fillStyle = '#38bdf8';
+        ctx.font = 'italic bold 18px sans-serif';
+        ctx.fillText('"We don\'t just tell you what is trending. We tell you what to manufacture."', 640, 480);
+
+        ctx.fillStyle = '#94a3b8';
+        ctx.font = '14px sans-serif';
+        ctx.fillText('OpportunityOS — Biến dữ liệu thị trường thành một quyết định sản xuất chiến thắng.', 640, 508);
+      }
+
+      // SUBTITLE BAR (Bottom Overlay)
+      ctx.fillStyle = 'rgba(2, 6, 23, 0.92)';
+      ctx.fillRect(0, 650, 1280, 70);
+      ctx.strokeStyle = '#1e293b';
+      ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(0, 650); ctx.lineTo(1280, 650); ctx.stroke();
+
+      ctx.textAlign = 'center';
+      ctx.fillStyle = '#f8fafc';
+      ctx.font = 'bold 16px sans-serif';
+      ctx.fillText(getSubtitle(t), 640, 690);
+    }
+
+    // Wrap text helper
+    function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+      const words = text.split(' ');
+      let line = '';
+      for (let n = 0; n < words.length; n++) {
+        const testLine = line + words[n] + ' ';
+        const metrics = ctx.measureText(testLine);
+        if (metrics.width > maxWidth && n > 0) {
+          ctx.fillText(line, x, y);
+          line = words[n] + ' ';
+          y += lineHeight;
+        } else {
+          line = testLine;
+        }
+      }
+      ctx.fillText(line, x, y);
+    }
+
+    // Animation Loop
+    function animate(timestamp) {
+      if (!startTime) startTime = timestamp;
+      const elapsed = (timestamp - startTime) / 1000;
+
+      // Update progress
+      const progressPercent = Math.min(100, (elapsed / TOTAL_DURATION) * 100);
+      progressFill.style.width = progressPercent + '%';
+
+      // Format time
+      const curSec = Math.min(TOTAL_DURATION, Math.floor(elapsed));
+      const curStr = curSec < 10 ? '0' + curSec : '' + curSec;
+      timeText.innerText = '00:' + curStr + ' / 00:25';
+
+      renderFrame(elapsed);
+
+      if (elapsed < TOTAL_DURATION && isRecording) {
+        animFrameId = requestAnimationFrame(animate);
+      } else if (isRecording) {
+        finishRecording();
+      }
+    }
+
+    // Bắt đầu quay
+    function startRecording() {
+      isRecording = true;
+      recordedChunks = [];
+      startTime = null;
+      successAlert.style.display = 'none';
+
+      startBtn.style.display = 'none';
+      stopBtn.style.display = 'inline-flex';
+      statusDot.className = 'status-dot recording';
+      statusText.innerText = 'Trạng thái: Đang tự động quay video...';
+
+      // Tạo MediaStream từ Canvas
+      const stream = canvas.captureStream(30); // 30 FPS
+      const mime = MediaRecorder.isTypeSupported('video/webm;codecs=vp9')
+        ? 'video/webm;codecs=vp9'
+        : 'video/webm';
+
+      mediaRecorder = new MediaRecorder(stream, { mimeType: mime });
+
+      mediaRecorder.ondataavailable = function(e) {
+        if (e.data.size > 0) recordedChunks.push(e.data);
+      };
+
+      mediaRecorder.onstop = function() {
+        const blob = new Blob(recordedChunks, { type: 'video/webm' });
+        const url = URL.createObjectURL(blob);
+
+        // Tự động tải file về máy tính
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = 'OpportunityOS_Demo_Video.webm';
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(() => {
+          document.body.removeChild(a);
+        }, 100);
+
+        downloadAgainBtn.href = url;
+        successAlert.style.display = 'flex';
+        statusDot.className = 'status-dot';
+        statusText.innerText = 'Trạng thái: Đã xuất video thành công!';
+        startBtn.style.display = 'inline-flex';
+        stopBtn.style.display = 'none';
+      };
+
+      mediaRecorder.start();
+      animFrameId = requestAnimationFrame(animate);
+    }
+
+    function finishRecording() {
+      isRecording = false;
+      cancelAnimationFrame(animFrameId);
+      if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+        mediaRecorder.stop();
+      }
+    }
+
+    startBtn.addEventListener('click', startRecording);
+    stopBtn.addEventListener('click', finishRecording);
+
+    // Initial first frame render
+    renderFrame(0);
+  </script>
+</body>
+</html>

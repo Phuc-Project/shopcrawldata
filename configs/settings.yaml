@@ -1,0 +1,88 @@
+project:
+  name: OpportunityOS
+  challenge: PW1-Product-Opportunity-Hub
+
+paths:
+  root: .
+  har_etsy: www.etsy.com.har
+  raw: data/raw
+  normalized: data/normalized
+  features: data/features
+  models: data/models
+  printway_catalog: data/printway/catalog.json
+
+# POD / Printway research seeds
+seed_queries:
+  - personalized ornament
+  - acrylic ornament
+  - pet memorial
+  - grandpa gift
+  - custom tshirt
+  - embroidered hoodie
+  - tumbler personalized
+  - name necklace
+  - wedding gift
+  - baby onesie custom
+  - canvas print
+  - blanket personalized
+  - mug custom photo
+  - phone case personalized
+  - poster custom
+  - wooden sign
+  - home decor
+  - custom snow globe
+
+opportunity_weights:
+  demand: 0.20
+  growth: 0.20
+  competition: 0.15
+  revenue: 0.15
+  personalization: 0.10
+  seasonality: 0.10
+  production_fit: 0.10
+
+recommendation_rules:
+  build_min_score: 80
+  build_min_production_fit: 75
+  watch_min_score: 60
+
+market_demand_mix:
+  etsy: 0.35
+  amazon: 0.30
+  aliexpress: 0.20
+  shopee: 0.10
+  lazada: 0.05
+
+connectors:
+  etsy:
+    # Official docs: https://developers.etsy.com/documentation/
+    # Auth: x-api-key: keystring:shared_secret on every request
+    # Base host used in quickstart ping: https://api.etsy.com/v3
+    openapi_base: https://api.etsy.com/v3
+    web_base: https://www.etsy.com
+    default_limit: 50
+
+  amazon:
+    marketplace: www.amazon.com
+    # Creators API host varies by region
+    host: creatorsapi.amazon.com
+  aliexpress:
+    gateway: https://eco.taobao.com/router/rest
+    default_page_size: 50
+    default_sort: LAST_VOLUME_DESC
+    target_currency: USD
+    target_language: EN
+  shopee:
+    region: vn
+    web_base: https://shopee.vn
+    partner_base: https://partner.shopeemobile.com
+    search_path: /api/v4/search/search_items
+  lazada:
+    region: vn
+    open_base: https://api.lazada.vn/rest
+    web_base: https://www.lazada.vn
+
+rate_limits:
+  default_rps: 2
+  etsy_openapi_rps: 5
+  polite_delay_ms: 350

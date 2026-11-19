@@ -1,0 +1,185 @@
+{
+  "source_har": "/Users/admin/Documents/OpportunityOS/www.etsy.com.har",
+  "stats": {
+    "listing_count": 48,
+    "trending_count": 6,
+    "related_query_count": 8,
+    "api_hit_count": 17
+  },
+  "query": null,
+  "related_queries": [
+    "home decor",
+    "home decor gift",
+    "home decor wall art",
+    "home decor art",
+    "home decor accessories",
+    "home decor accents",
+    "home decor items aesthetic",
+    "home decor items"
+  ],
+  "trending": [
+    {
+      "title": "Home Decor",
+      "url": "https://www.etsy.com/search?q=home+decor&mosv=sese&moci=1497756176121&mosi=1506093315160&is_merch_library=true",
+      "search_term": "Home Decor",
+      "image": "https://i.etsystatic.com/29286386/r/il/9e70cf/8239763355/il_300x300.8239763355_3dkk.jpg",
+      "module_title": "Gifts as special as they are"
+    },
+    {
+      "title": "Fall Fashion",
+      "url": "https://www.etsy.com/search?q=fall+fashion&mosv=sese&moci=1497756176121&mosi=1506093347560&is_merch_library=true",
+      "search_term": "Fall Fashion",
+      "image": "https://i.etsystatic.com/8154976/c/1996/1996/0/244/il/7b1b4a/6161230235/il_300x300.6161230235_r42w.jpg",
+      "module_title": "Gifts as special as they are"
+    },
+    {
+      "title": "Gifts for Kids",
+      "url": "https://www.etsy.com/search?q=gifts+for+kids&mosv=sese&moci=1497756176121&mosi=1506093404780&is_merch_library=true",
+      "search_term": "Gifts For Kids",
+      "image": "https://i.etsystatic.com/22287963/r/il/d6800e/5888348913/il_300x300.5888348913_dlgp.jpg",
+      "module_title": "Gifts as special as they are"
+    },
+    {
+      "title": "Demi Fine Jewelry",
+      "url": "https://www.etsy.com/search?q=heirloom+jewelry&mosv=sese&moci=1497756176121&mosi=1506093433750&is_merch_library=true&min_price=100&max_price=400",
+      "search_term": "Heirloom Jewelry",
+      "image": "https://i.etsystatic.com/8912800/c/1410/1410/366/669/il/360bde/7407260448/il_300x300.7407260448_45v2.jpg",
+      "module_title": "Gifts as special as they are"
+    },
+    {
+      "title": "Wedding Gifts",
+      "url": "https://www.etsy.com/search?q=wedding+gift&mosv=sese&moci=1497756176121&mosi=1499552660048&is_merch_library=true",
+      "search_term": "Wedding Gift",
+      "image": "https://i.etsystatic.com/61249078/r/il/790224/8324508214/il_300x300.8324508214_oc0n.jpg",
+      "module_title": "Gifts as special as they are"
+    },
+    {
+      "title": "Party Supplies",
+      "url": "https://www.etsy.com/search?q=party+supplies&mosv=sese&moci=1497756176121&mosi=1506093500454&is_merch_library=true",
+      "search_term": "Party Supplies",
+      "image": "https://i.etsystatic.com/57760219/r/il/b0f70c/7771626186/il_300x300.7771626186_jb3y.jpg",
+      "module_title": "Gifts as special as they are"
+    }
+  ],
+  "api_hits": [
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/home_async",
+      "status": 200,
+      "size": 75196,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/home_async"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v3/ajax/bespoke/public/neu/specs/submenu",
+      "status": 200,
+      "size": 5564,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/public/neu/specs/submenu?log_performance_metrics=false&specs%5Bsubmenu%5D%5B%5D=Etsy%5CModules%5CCategoryNav%5CSpecs%5CDropdownCatNav%5CDropdownSubmenu&runtime_analysis=false"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v3/ajax/bespoke/public/neu/specs/catnav-mobile",
+      "status": 200,
+      "size": 114252,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/public/neu/specs/catnav-mobile?log_performance_metrics=false&specs%5Bcatnav-mobile%5D%5B%5D=CategoryNav_V2_Mobile_ApiSpec_CategoryNav&specs%5Bcatnav-mobile%5D%5B1%5D%5Bmott_version%5D=75f73b1&specs%5"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v3/ajax/public/search/zero-pane-trending-searches/true",
+      "status": 200,
+      "size": 2070,
+      "url": "https://www.etsy.com/api/v3/ajax/public/search/zero-pane-trending-searches/true?dataset="
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/listingCards",
+      "status": 200,
+      "size": 1371462,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/listingCards"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/search_async_recs",
+      "status": 200,
+      "size": 934,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/search_async_recs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/search_async_ppfy_recs",
+      "status": 200,
+      "size": 3841,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/search_async_ppfy_recs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/async_active_filters",
+      "status": 200,
+      "size": 4599,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/async_active_filters"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/queryIngresses",
+      "status": 200,
+      "size": 14859,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/queryIngresses"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/search_async_narrowing_modules",
+      "status": 200,
+      "size": 89519,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/search_async_narrowing_modules"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/search-pathways",
+      "status": 200,
+      "size": 20799,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/search-pathways"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/search_async_perso_query_suggestions",
+      "status": 200,
+      "size": 13007,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/search_async_perso_query_suggestions"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/bespoke/member/neu/specs/search_async_related_niches",
+      "status": 200,
+      "size": 1625,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/member/neu/specs/search_async_related_niches"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v3/ajax/public/search/taxonomy/get-category-filter-nodes-all",
+      "status": 200,
+      "size": 80789,
+      "url": "https://www.etsy.com/api/v3/ajax/public/search/taxonomy/get-category-filter-nodes-all"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v3/ajax/member/users/listings-favorites-collections-map",
+      "status": 200,
+      "size": 46,
+      "url": "https://www.etsy.com/api/v3/ajax/member/users/listings-favorites-collections-map?listing_ids%5B%5D=1721121082&listing_ids%5B%5D=1047099510&listing_ids%5B%5D=1176417219&listing_ids%5B%5D=1041272867&listing_ids%5B%5D=4441351354&listing_ids%5B"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v3/ajax/bespoke/public/neu/specs/catnav-mobile",
+      "status": 200,
+      "size": 114252,
+      "url": "https://www.etsy.com/api/v3/ajax/bespoke/public/neu/specs/catnav-mobile?log_performance_metrics=false&specs%5Bcatnav-mobile%5D%5B%5D=CategoryNav_V2_Mobile_ApiSpec_CategoryNav&specs%5Bcatnav-mobile%5D%5B1%5D%5Bmott_version%5D=75f73b1&specs%5"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v3/ajax/member/users/listings-favorites-collections-map",
+      "status": 200,
+      "size": 46,
+      "url": "https://www.etsy.com/api/v3/ajax/member/users/listings-favorites-collections-map?listing_ids%5B%5D=637405582&listing_ids%5B%5D=1872283886&listing_ids%5B%5D=1591294285&listing_ids%5B%5D=1610151507&listing_ids%5B%5D=1748141078&listing_ids%5B%"
+    }
+  ]
+}

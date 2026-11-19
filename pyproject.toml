@@ -1,0 +1,43 @@
+[project]
+name = "opportunity-os"
+version = "0.1.0"
+description = "AI Product Research Copilot for Printway POD (PW1)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "httpx>=0.27",
+  "pydantic>=2.6",
+  "pydantic-settings>=2.2",
+  "python-dotenv>=1.0",
+  "orjson>=3.10",
+  "PyYAML>=6.0",
+  "beautifulsoup4>=4.12",
+  "lxml>=5.0",
+  "pandas>=2.2",
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+  "joblib>=1.3",
+  "tenacity>=8.2",
+  "rich>=13.7",
+  "typer>=0.12",
+  "tqdm>=4.66",
+]
+
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.3"]
+
+[project.scripts]
+opportunity-os = "opportunity_os.cli:app"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["opportunity_os*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

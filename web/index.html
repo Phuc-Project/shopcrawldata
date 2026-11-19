@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpportunityOS — Trợ lý Nghiên cứu Sản phẩm POD cho Printway R&D</title>
+  
+  <!-- Modern Google Fonts matching mẫu.zip -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Inter+Tight:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets (Matching template light palette) -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- Custom Magnetic Cursor from mẫu.zip -->
+  <div class="custom-cursor-dot"></div>
+  <div class="custom-cursor-ring"></div>
+
+  <!-- Signature Top Gradient Bar from mẫu.zip -->
+  <div class="bottom-gradient-bar"></div>
+
+  <!-- Fixed Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <div class="logo-icon">O</div>
+        <span class="logo-text">OpportunityOS</span>
+        <span class="logo-tag">Printway AI</span>
+      </a>
+
+      <!-- Desktop Links with Numbers (01 - 05) -->
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a href="#feed-section" class="nav-link">
+              Bảng cơ hội <span class="nav-num">(01)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#copilot-section" class="nav-link">
+              Trợ lý AI <span class="nav-num">(02)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#compare-section" class="nav-link">
+              Ma trận ngách <span class="nav-num">(03)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#radar-section" class="nav-link">
+              Radar xu hướng <span class="nav-num">(04)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#pipeline-section" class="nav-link">
+              Kiến trúc & Công thức <span class="nav-num">(05)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#copilot-section" class="btn btn-secondary btn-sm">Thử Copilot</a>
+        <a href="#feed-section" class="btn btn-electric btn-sm">Khám phá Feed</a>
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Mở menu di động">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-menu-drawer" id="mobile-menu-drawer">
+    <div class="mobile-menu-header">
+      <div class="brand-logo">
+        <div class="logo-icon">O</div>
+        <span class="logo-text">OpportunityOS</span>
+      </div>
+      <button class="modal-close" id="mobile-menu-close">&times;</button>
+    </div>
+    <ul class="mobile-menu-links">
+      <li><a href="#feed-section" class="mobile-nav-link">Bảng cơ hội (01)</a></li>
+      <li><a href="#copilot-section" class="mobile-nav-link">Trợ lý AI Copilot (02)</a></li>
+      <li><a href="#compare-section" class="mobile-nav-link">Ma trận so sánh ngách (03)</a></li>
+      <li><a href="#radar-section" class="mobile-nav-link">Radar xu hướng sớm (04)</a></li>
+      <li><a href="#pipeline-section" class="mobile-nav-link">Kiến trúc & Công thức tính điểm (05)</a></li>
+    </ul>
+    <div style="margin-top:auto; padding-top:2rem; display:flex; flex-direction:column; gap:0.75rem;">
+      <a href="#feed-section" class="btn btn-electric mobile-nav-link" style="width:100%;">Khám phá Feed 🚀</a>
+      <a href="#copilot-section" class="btn btn-secondary mobile-nav-link" style="width:100%;">Thử Copilot 🤖</a>
+    </div>
+  </div>
+
+  <!-- Hero Section with Signature Rotating Orb from mẫu.zip -->
+  <section class="hero-section">
+    <div class="hero-orb-wrapper">
+      <img src="images/orb.png" alt="Rotating AI Orb" class="hero-orb" />
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="live-pulse-dot"></span>
+          <span class="hero-pill-tag">ENGINE R&D THỜI GIAN THỰC</span>
+          <span class="hero-pill-divider">•</span>
+          <span class="hero-pill-award">Quán quân Printway POD Challenge PW1</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="hero-line hero-line-top">Từ Dữ Liệu Thị Trường Hỗn Loạn</span>
+          <span class="hero-line hero-line-mid">Đến Quyết Định</span>
+          <span class="hero-line hero-line-highlight">
+            <span class="ai-gradient-text"><span class="text-nowrap">Sản&nbsp;Phẩm</span> <span class="text-nowrap">Thắng&nbsp;Lớn</span></span>
+          </span>
+        </h1>
+
+        <p class="hero-subtitle">
+          OpportunityOS định hướng cho đội ngũ R&D Printway những sản phẩm Print-on-Demand tiềm năng nhất — tự động tính điểm nhu cầu thị trường, tốc độ cạnh tranh và độ phù hợp năng lực xưởng trước khi thị trường bão hòa.
+        </p>
+
+        <!-- Hero CTA Action Buttons matching template -->
+        <div class="hero-actions-row">
+          <a href="#feed-section" class="btn btn-electric btn-hero">
+            <span>Khám phá Bảng Cơ Hội</span>
+            <span style="font-size:1.1rem; line-height:1;">🚀</span>
+          </a>
+          <a href="#copilot-section" class="btn btn-secondary btn-hero">
+            <span>Trải nghiệm AI Copilot</span>
+            <span style="font-size:1rem; line-height:1;">↓</span>
+          </a>
+        </div>
+
+        <!-- AI Command Prompt Palette Box -->
+        <div class="search-copilot-box">
+          <div class="search-input-wrapper">
+            <span class="search-input-icon">✨</span>
+            <input type="text" id="hero-search-input" class="search-input" placeholder="Hỏi OpportunityOS bất kỳ câu hỏi nào (VD: Tìm sản phẩm quà tặng thú cưng cho Q4)...">
+            <button id="hero-search-btn" class="btn btn-electric btn-sm" style="border-radius:var(--radius-full); padding:0.5rem 1.25rem;">Hỏi Copilot</button>
+          </div>
+
+          <div class="search-chips-label">
+            <span>💡 Gợi ý câu hỏi nghiên cứu</span>
+          </div>
+
+          <div class="search-chips">
+            <span class="chip" data-prompt="Tìm các sản phẩm cá nhân hóa tăng trưởng nhanh nhất cho Q4">⚡ Sản phẩm Q4 tăng trưởng nhanh</span>
+            <span class="chip" data-prompt="So sánh ngách Kỷ niệm Thú cưng vs Quà tặng Ông vs Biển làm vườn">📊 So sánh các ngách hàng đầu</span>
+            <span class="chip" data-prompt="Tại sao không nên sản xuất Thẻ tên thú cưng bằng kim loại?">⚠️ Bẫy Demo: Thẻ tên kim loại</span>
+            <span class="chip" data-prompt="Giải thích độ phù hợp sản xuất của đồ trang trí Mica 3mm Printway">🔮 Hợp xưởng Mica Printway</span>
+          </div>
+        </div>
+
+        <!-- Marketplace Connectors Strip -->
+        <div class="connectors-strip">
+          <div class="connector-badge"><span class="check">✓</span> Etsy OpenAPI v3</div>
+          <div class="connector-badge"><span class="check">✓</span> Amazon PA</div>
+          <div class="connector-badge"><span class="check">✓</span> TikTok Shop (Kalodata)</div>
+          <div class="connector-badge"><span class="check">✓</span> Google Trends API</div>
+          <div class="connector-badge"><span class="check">✓</span> Chuẩn hóa danh mục Printway</div>
+          <div class="connector-badge"><span class="check">✓</span> pgvector LLM Reranker</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opportunity Feed Section (01) with Full Search & Filter Controls -->
+  <section id="feed-section" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">( 01 ) CÔNG CỤ TÌM KIẾM CƠ HỘI</span>
+        <h2 class="section-title">Cơ hội Sản phẩm Mới nổi</h2>
+        <p class="section-desc">Thuật toán tính điểm thời gian thực kết hợp tốc độ nhu cầu, mật độ cạnh tranh và năng lực sản xuất thực tế của Printway.</p>
+      </div>
+
+      <!-- Feed Header with Search, Status, Category, and Sorter -->
+      <div class="feed-header">
+        <div class="feed-title-block">
+          <div class="feed-count-badge">
+            <span>Ứng viên xếp hạng</span>
+            <span class="feed-count-pill" id="feed-count">4</span>
+            <span style="font-size:0.75rem; color:var(--text-muted); font-weight:normal;">SKU đã kiểm toán</span>
+          </div>
+        </div>
+
+        <div class="feed-controls-row">
+          <!-- Live Search Input in Feed -->
+          <div class="feed-search-wrapper">
+            <span class="feed-search-icon">🔍</span>
+            <input type="text" id="feed-search-input" class="feed-search-input" placeholder="Tìm kiếm sản phẩm hoặc ngách..." />
+          </div>
+
+          <!-- Status Filter -->
+          <select id="filter-status" class="select-filter">
+            <option value="all">Tất cả kết luận (BUILD / WATCH / SKIP)</option>
+            <option value="build">Chỉ BUILD (Sẵn sàng sản xuất ngay)</option>
+            <option value="watch">Chỉ WATCH (Theo dõi thêm xu hướng)</option>
+            <option value="skip">Chỉ SKIP (Nghẽn năng lực xưởng)</option>
+          </select>
+
+          <!-- Category Filter -->
+          <select id="filter-category" class="select-filter">
+            <option value="all">Tất cả danh mục</option>
+            <option value="decor">Trang trí nhà cửa & Quà tặng</option>
+            <option value="family">Quà tặng gia đình</option>
+            <option value="pet">Sản phẩm thú cưng</option>
+          </select>
+
+          <!-- Sorter -->
+          <select id="feed-sort-by" class="select-filter">
+            <option value="score">Sắp xếp: Điểm cao nhất</option>
+            <option value="growth">Sắp xếp: Tăng trưởng nhanh nhất</option>
+            <option value="fit">Sắp xếp: Hợp xưởng Printway nhất</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Opportunities Grid rendered dynamically by app.js -->
+      <div class="opportunity-grid" id="opportunity-feed-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Copilot Assistant Section (02) -->
+  <section id="copilot-section" class="section" style="background: #fafafa;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">( 02 ) TRỢ LÝ NGHIÊN CỨU AI</span>
+        <h2 class="section-title">Trợ lý R&D AI Tương tác</h2>
+        <p class="section-desc">Đặt câu hỏi kinh doanh bằng ngôn ngữ tự nhiên. Theo dõi AI phân tích ý định, truy vấn dữ liệu thị trường, kiểm tra năng lực xưởng và đưa ra khuyến nghị thực thi.</p>
+      </div>
+
+      <div class="copilot-window">
+        <!-- Sidebar Suggested Prompts -->
+        <div class="copilot-sidebar">
+          <div class="sidebar-title">
+            <span>🤖</span> Gợi ý câu hỏi
+          </div>
+
+          <div class="prompt-suggestions">
+            <button class="prompt-btn" data-prompt="Tìm các sản phẩm cá nhân hóa tăng trưởng nhanh nhất cho Q4">
+              🔥 <strong>Tăng trưởng nhanh Q4</strong>
+              <span style="font-size:0.775rem; color:var(--text-muted);">Sản phẩm cá nhân hóa bùng nổ</span>
+            </button>
+
+            <button class="prompt-btn" data-prompt="So sánh ngách Kỷ niệm Thú cưng vs Quà tặng Ông vs Biển làm vườn">
+              📊 <strong>So sánh các ngách</strong>
+              <span style="font-size:0.775rem; color:var(--text-muted);">Đối chiếu chỉ số trực diện</span>
+            </button>
+
+            <button class="prompt-btn" data-prompt="Tại sao không nên sản xuất Thẻ tên thú cưng bằng kim loại?">
+              ⚠️ <strong>Bẫy Demo: Thẻ tên kim loại</strong>
+              <span style="font-size:0.775rem; color:var(--text-muted);">Nhu cầu cao nhưng hợp xưởng THẤP</span>
+            </button>
+
+            <button class="prompt-btn" data-prompt="Giải thích độ phù hợp sản xuất của đồ trang trí Mica 3mm Printway">
+              🔮 <strong>Hợp xưởng Mica Acrylic</strong>
+              <span style="font-size:0.775rem; color:var(--text-muted);">Biên lợi nhuận & khả năng xưởng</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chat Main Area -->
+        <div class="copilot-main">
+          <div class="chat-history" id="chat-history">
+            <div class="message-bubble message-ai">
+              👋 Xin chào! Tôi là <strong>OpportunityOS Copilot</strong>. Tôi phân tích dữ liệu thị trường từ Etsy, Amazon, TikTok Shop và thông số kỹ thuật xưởng Printway để tư vấn cho đội ngũ R&D chính xác nên sản xuất sản phẩm nào.<br/><br/>
+              Hãy hỏi bất kỳ câu hỏi nào hoặc chọn một câu hỏi gợi ý ở cột bên trái!
+            </div>
+          </div>
+
+          <div class="chat-input-bar">
+            <input type="text" id="chat-input" class="chat-input" placeholder="Nhập câu hỏi nghiên cứu sản phẩm của bạn vào đây...">
+            <button id="chat-send-btn" class="btn btn-electric btn-sm">Gửi 🚀</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Niche Comparison Matrix (03) -->
+  <section id="compare-section" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">( 03 ) MA TRẬN QUYẾT ĐỊNH R&D</span>
+        <h2 class="section-title">Ma trận So sánh các Ngách Sản phẩm</h2>
+        <p class="section-desc">Đánh giá các cơ hội thông qua các chỉ số đa sàn thương mại đã chuẩn hóa và năng lực xưởng Printway.</p>
+      </div>
+
+      <div class="glass-card matrix-card">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th>Ứng viên sản phẩm</th>
+              <th>Điểm cơ hội</th>
+              <th>Tăng trưởng nhu cầu (30 ngày)</th>
+              <th>Mức độ cạnh tranh</th>
+              <th>Độ phù hợp xưởng</th>
+              <th>Chất liệu</th>
+              <th>Kết luận</th>
+            </tr>
+          </thead>
+          <tbody id="matrix-table-body">
+            <!-- Rendered dynamically by app.js -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Early Trend Radar & Alerts (04) -->
+  <section id="radar-section" class="section" style="background: #fafafa;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">( 04 ) RADAR BẮT SÓNG XU HƯỚNG SỚM</span>
+        <h2 class="section-title">Cảnh báo Tốc độ Tăng trưởng Hàng ngày</h2>
+        <p class="section-desc">Hệ thống cron tự động phát hiện các từ khóa tăng tốc đột biến trước khi đối thủ bắt đầu đăng bán hàng loạt.</p>
+      </div>
+
+      <div class="glass-card" style="max-width: 860px; margin:0 auto; padding:1.5rem;" id="radar-alerts-container">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- System Architecture & Formula Section (05) -->
+  <section id="pipeline-section" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">( 05 ) CÔNG THỨC TOÁN HỌC ĐỊNH LƯỢNG</span>
+        <h2 class="section-title">Công thức Tính Điểm Cơ hội</h2>
+        <p class="section-desc">Điểm số được tính toán định lượng và hoàn toàn minh bạch — dựa trên dữ liệu thực tế thay vì suy đoán mơ hồ của LLM.</p>
+      </div>
+
+      <div class="formula-grid">
+        <div class="formula-card">
+          <div class="formula-percent" style="color:#203eec;">20%</div>
+          <h4 class="formula-name">Tốc độ Nhu cầu</h4>
+          <p class="formula-desc">Tốc độ bán hàng đa nền tảng, thứ hạng phần trăm BSR, xu hướng lượng tìm kiếm và đà đánh giá của khách hàng.</p>
+        </div>
+
+        <div class="formula-card">
+          <div class="formula-percent" style="color:#10b981;">20%</div>
+          <h4 class="formula-name">Khoảng trống Cơ hội</h4>
+          <p class="formula-desc">Độ chênh lệch tăng trưởng nhu cầu 30 ngày trừ đi tốc độ gia tăng đối thủ. Khoảng cách lớn thể hiện nhu cầu đang bùng nổ trước khi bão hòa.</p>
+        </div>
+
+        <div class="formula-card">
+          <div class="formula-percent" style="color:#f59e0b;">15%</div>
+          <h4 class="formula-name">Mật độ Cạnh tranh</h4>
+          <p class="formula-desc">Số lượng sản phẩm đang bán, chỉ số tập trung thị phần của top seller và rào cản số lượng đánh giá tối thiểu.</p>
+        </div>
+
+        <div class="formula-card">
+          <div class="formula-percent" style="color:#8b5cf6;">25%</div>
+          <h4 class="formula-name">Độ phù hợp Xưởng Printway</h4>
+          <p class="formula-desc">Tính khả thi của vật liệu phôi, thời gian sản xuất (lead-time), độ tương thích máy móc và biên lợi nhuận gộp mục tiêu trên 35%.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modern Template Footer (Matching footer.tsx in mẫu.zip) -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-title">OpportunityOS</div>
+          <p class="footer-brand-desc">
+            Trợ lý AI tự động giúp Printway R&D đón đầu các cơ hội sản phẩm Print-on-Demand tiềm năng trước khi đối thủ kịp bắt kịp.
+          </p>
+          <div class="footer-status-pill">
+            <span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:#10b981;"></span>
+            HỆ THỐNG HOẠT ĐỘNG ỔN ĐỊNH • PRINTWAY R&D
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Điều hướng</h4>
+          <ul class="footer-links-list">
+            <li><a href="#feed-section" class="footer-link">Bảng cơ hội (01)</a></li>
+            <li><a href="#copilot-section" class="footer-link">Trợ lý AI Copilot (02)</a></li>
+            <li><a href="#compare-section" class="footer-link">Ma trận ngách (03)</a></li>
+            <li><a href="#radar-section" class="footer-link">Radar xu hướng (04)</a></li>
+            <li><a href="#pipeline-section" class="footer-link">Công thức tính điểm (05)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Kết nối dữ liệu</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link" style="color:var(--text-muted);">Etsy OpenAPI v3 (Chuẩn hóa)</li>
+            <li class="footer-link" style="color:var(--text-muted);">Amazon Product Advertising</li>
+            <li class="footer-link" style="color:var(--text-muted);">TikTok Shop (Kalodata)</li>
+            <li class="footer-link" style="color:var(--text-muted);">Google Trends Semantic Feed</li>
+            <li class="footer-link" style="color:var(--text-muted);">Engine Thông số Xưởng Printway</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 OpportunityOS • Xây dựng cho HN AI Hackathon 2026 (Printway PW1)</div>
+        <div style="font-family:var(--font-mono); font-size:0.775rem;">v2.4.0 — Sẵn sàng cho sản xuất</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Research Report Modal -->
+  <div class="modal-overlay" id="report-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-title-text">HỒ SƠ NGHIÊN CỨU SẢN PHẨM</h2>
+        <button class="modal-close" id="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-body-content">
+        <!-- Rendered dynamically by report.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript App Launch -->
+  <script type="module" src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,228 @@
+{
+  "listings": 48,
+  "opportunities": 32,
+  "top": [
+    {
+      "key": "Snow Globe|Personalized",
+      "product_type": "Snow Globe",
+      "niche": "Personalized",
+      "sources": [
+        "etsy"
+      ],
+      "listing_count": 1,
+      "shop_count": 1,
+      "avg_price": 34435262.0,
+      "median_price": 34435262.0,
+      "avg_rating": 0.0,
+      "total_reviews": 0.0,
+      "total_favorites": 0.0,
+      "total_sales_est": 0.0,
+      "personalization_ratio": 1.0,
+      "demand": 96.9,
+      "growth": 70.0,
+      "competition": 35.6,
+      "revenue": 100.0,
+      "personalization": 100.0,
+      "seasonality": 40.0,
+      "production_fit": 36.0,
+      "opportunity_score": 71.3,
+      "recommendation": "WATCH",
+      "reason": "Có tín hiệu nhưng chưa đủ mạnh hoặc fit trung bình. Niche personalization mạnh (POD-friendly). Production fit thấp — cân nhắc SKIP dù market tốt.",
+      "matched_printway_sku": "PW-SNOW-001",
+      "sample_titles": [
+        "Custom Snow Globe - Your home in a globe!"
+      ],
+      "sample_urls": [
+        "https://www.etsy.com/listing/637405582/custom-snow-globe-your-home-in-a-globe?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALTc75ed130b641c0dbc190e08e7f7612dca34cfbbe&click_sum=d18e4f58&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-5&sr_prefetch=1&pf_from=search&etp=1"
+      ]
+    },
+    {
+      "key": "Rug|Personalized",
+      "product_type": "Rug",
+      "niche": "Personalized",
+      "sources": [
+        "etsy"
+      ],
+      "listing_count": 1,
+      "shop_count": 1,
+      "avg_price": 9817631.0,
+      "median_price": 9817631.0,
+      "avg_rating": 0.0,
+      "total_reviews": 0.0,
+      "total_favorites": 0.0,
+      "total_sales_est": 0.0,
+      "personalization_ratio": 1.0,
+      "demand": 96.9,
+      "growth": 70.0,
+      "competition": 35.6,
+      "revenue": 90.6,
+      "personalization": 100.0,
+      "seasonality": 40.0,
+      "production_fit": 35.0,
+      "opportunity_score": 69.8,
+      "recommendation": "WATCH",
+      "reason": "Có tín hiệu nhưng chưa đủ mạnh hoặc fit trung bình. Niche personalization mạnh (POD-friendly). Production fit thấp — cân nhắc SKIP dù market tốt.",
+      "matched_printway_sku": "PW-ACR-ORN-001",
+      "sample_titles": [
+        "Custom moroccan rug - Moroccan rug - beni ourain rug - wool rug - handcrafted rug - Colorful rug - ivory rug - berber boho rug - Home decor"
+      ],
+      "sample_urls": [
+        "https://www.etsy.com/listing/1367457032/custom-moroccan-rug-moroccan-rug-beni?click_key=EucN-lurg-eL46Qd_Qszkv5K5k10%3ALT5dc5018d69c5845d660efe011ec39c76dcd62a58&click_sum=cb2d1922&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603341-1-12&sr_prefetch=1&pf_from=search&pro=1&frs=1&etp=1"
+      ]
+    },
+    {
+      "key": "Ornament|Christmas",
+      "product_type": "Ornament",
+      "niche": "Christmas",
+      "sources": [
+        "etsy"
+      ],
+      "listing_count": 1,
+      "shop_count": 1,
+      "avg_price": 1140496.0,
+      "median_price": 1140496.0,
+      "avg_rating": 0.0,
+      "total_reviews": 0.0,
+      "total_favorites": 0.0,
+      "total_sales_est": 0.0,
+      "personalization_ratio": 0.0,
+      "demand": 84.4,
+      "growth": 60.0,
+      "competition": 35.6,
+      "revenue": 59.4,
+      "personalization": 0.0,
+      "seasonality": 100.0,
+      "production_fit": 47.0,
+      "opportunity_score": 57.8,
+      "recommendation": "SKIP",
+      "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+      "matched_printway_sku": "PW-ACR-ORN-001",
+      "sample_titles": [
+        "Candle Holder Set, Handmade Candlestick Holder, Wedding Decor, Engagement Ornament, Home Decor, Christmas Gift - New First Home House Gift"
+      ],
+      "sample_urls": [
+        "https://www.etsy.com/listing/4310051182/candle-holder-set-handmade-candlestick?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTeecc833d44dec8a2867083d012c32b81b0246f5c&click_sum=65181e0d&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-19&sr_prefetch=1&pf_from=search&pro=1&etp=1&sts=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTeecc833d44dec8a2867083d012c32b81b0246f5c"
+      ]
+    },
+    {
+      "key": "Canvas|Home Decor",
+      "product_type": "Canvas",
+      "niche": "Home Decor",
+      "sources": [
+        "etsy"
+      ],
+      "listing_count": 15,
+      "shop_count": 15,
+      "avg_price": 265506.27,
+      "median_price": 181818.0,
+      "avg_rating": 0.0,
+      "total_reviews": 0.0,
+      "total_favorites": 0.0,
+      "total_sales_est": 0.0,
+      "personalization_ratio": 0.0,
+      "demand": 100.0,
+      "growth": 47.0,
+      "competition": 15.0,
+      "revenue": 75.0,
+      "personalization": 0.0,
+      "seasonality": 48.0,
+      "production_fit": 98.0,
+      "opportunity_score": 57.5,
+      "recommendation": "SKIP",
+      "reason": "Demand/fit thấp.",
+      "matched_printway_sku": "PW-CANVAS-001",
+      "sample_titles": [
+        "Neutral Beach Print for Summer Home Decor Minimalist Travel Poster Coastal Nautical Print Surfing Gifts Large Printable",
+        "pink and orange wall art funky home decor above bed decor, trendy art print aesthetics posters dopamine decor, retro art maximalist decor",
+        "Frons Planter Pot STL File: 3D Print Home Decor (Digital Download)",
+        "Black Beige Abstract Art Print: Modern Minimalist Decor (Digital Download)",
+        "Vintage Bird Print | Downloadable Printable | Nursery Wall Decor | Summer PRINTABLE Artwork | Gallery Wall Art"
+      ],
+      "sample_urls": [
+        "https://www.etsy.com/listing/1382211497/neutral-beach-print-for-summer-home?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT9746dcee0effb3c23af4cdbac94ecc08b35b1d3c&click_sum=f0b7dd28&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-12&sr_prefetch=1&pf_from=search&pro=1&etp=1&sts=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT9746dcee0effb3c23af4cdbac94ecc08b35b1d3c",
+        "https://www.etsy.com/listing/1582433175/pink-and-orange-wall-art-funky-home?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTfbb1170489c7fb0487bd392389cbd05bcfa9ca03&click_sum=fccd7771&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-13&sr_prefetch=1&pf_from=search&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTfbb1170489c7fb0487bd392389cbd05bcfa9ca03",
+        "https://www.etsy.com/listing/1669824121/frons-planter-pot-stl-file-3d-print-home?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALTc626064fa3013f03abcaa6971c1134dee2c96ae2&click_sum=bf76f533&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-14&sr_prefetch=1&pf_from=search&pro=1&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALTc626064fa3013f03abcaa6971c1134dee2c96ae2",
+        "https://www.etsy.com/listing/1266032650/black-beige-abstract-art-print-modern?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT0bcd71aca5aacb09c99b2fb98c3935134e48d164&click_sum=bfe4b764&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-15&sr_prefetch=1&pf_from=search&etp=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT0bcd71aca5aacb09c99b2fb98c3935134e48d164",
+        "https://www.etsy.com/listing/1468887866/vintage-bird-print-downloadable?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT1488cf38f2e1cc8e81038dff7927cf7884bf2aa2&click_sum=b6462cf7&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-20&sr_prefetch=1&pf_from=search&etp=1&sts=1&dd=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT1488cf38f2e1cc8e81038dff7927cf7884bf2aa2"
+      ]
+    },
+    {
+      "key": "Adorable Halloween Pumpkin|Home Decor",
+      "product_type": "Adorable Halloween Pumpkin",
+      "niche": "Home Decor",
+      "sources": [
+        "etsy"
+      ],
+      "listing_count": 1,
+      "shop_count": 1,
+      "avg_price": 930063.0,
+      "median_price": 930063.0,
+      "avg_rating": 0.0,
+      "total_reviews": 0.0,
+      "total_favorites": 0.0,
+      "total_sales_est": 0.0,
+      "personalization_ratio": 0.0,
+      "demand": 84.4,
+      "growth": 60.0,
+      "competition": 35.6,
+      "revenue": 50.0,
+      "personalization": 0.0,
+      "seasonality": 100.0,
+      "production_fit": 47.0,
+      "opportunity_score": 56.4,
+      "recommendation": "SKIP",
+      "reason": "Demand/fit thấp. Production fit thấp — cân nhắc SKIP dù market tốt.",
+      "matched_printway_sku": "PW-ACR-ORN-001",
+      "sample_titles": [
+        "Adorable Halloween Pumpkin Mouse with Witch Hat, Unique Halloween Gifts, Halloween Decor, Autumn Home Decor, Handmade Wool Felt Ornaments"
+      ],
+      "sample_urls": [
+        "https://www.etsy.com/listing/4357645995/adorable-halloween-pumpkin-mouse-with?click_key=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%3ALT8f9a93734225cb7376d1ad07dd199fa0e2ebb2ab&click_sum=97d1bffd&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=home+decor&ref=search_grid-603342-1-47&sr_prefetch=1&pf_from=search&pro=1&frs=1&bes=1&content_source=17d2ad50-5549-4dd2-a3d6-7d6f8955a0ff%253ALT8f9a93734225cb7376d1ad07dd199fa0e2ebb2ab"
+      ]
+    }
+  ],
+  "train": {
+    "status": "ok",
+    "n_samples": 32,
+    "n_train": 24,
+    "n_test": 8,
+    "classifier_accuracy": 1.0,
+    "regressor_mae": 1.3283154175364915,
+    "label_distribution": {
+      "SKIP": 30,
+      "WATCH": 2
+    },
+    "feature_cols": [
+      "demand",
+      "growth",
+      "competition",
+      "revenue",
+      "personalization",
+      "seasonality",
+      "production_fit",
+      "listing_count",
+      "shop_count",
+      "avg_price",
+      "avg_rating",
+      "total_reviews",
+      "total_favorites",
+      "total_sales_est",
+      "personalization_ratio"
+    ]
+  },
+  "har_stats": {
+    "listing_count": 48,
+    "trending_count": 6,
+    "related_query_count": 8,
+    "api_hit_count": 17
+  },
+  "report": "/Users/admin/Documents/OpportunityOS/data/features/report.md",
+  "api_registry": {
+    "etsy": 12,
+    "amazon": 6,
+    "shopee": 8,
+    "lazada": 4,
+    "aliexpress": 7
+  },
+  "live_etsy_error": null
+}
